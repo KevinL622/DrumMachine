@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-image: url("https://lh3.googleusercontent.com/Awx4tuNBEuGLrtpzVi8jT9Iv8ca2c5KP169PyHTnC0r1uS1AoqAVK_abComAHnkaPcdTl0cbj_om96n5WESdvtj0-e1CaPpJ8zBjOgiU9Flw8NP-lc9TV5vt-ptHerEKsHWpYEqqpQ=w2400");
+  background-size: 100%;
+}
+
+#title {
+  color: white;
+  font-size: 6vh;
+}
+
+#drumDisplay {
+  display: flex;
+  justify-content: center;
+}
+#drumDisplay .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 60vh;
+  background-color: clear;
+}
+
+#displayBox {
+  display: inline-block;
+  margin-top: 1vh;
+  background-color: white;
+  width: 25vh;
+  border-radius: 5px;
+}
+
+#display {
+  font-size: 4vh;
+}
+
+.drum-pad:hover {
+  cursor: pointer;
+}
